@@ -1,6 +1,8 @@
 //define functions here
 function getIt(){
-  $('p').  
+  $('p').on('click', function(){
+    
+  })  
 }
 
 $(document).ready(function(){
