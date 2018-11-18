@@ -9,7 +9,7 @@ function getIt(){
 function frameIt(){
   $('img').on('load', function(){
     $('img').addClass('tasty');
-  })
+  });
   return;
 }
 
@@ -18,7 +18,8 @@ function pressIt() {
     if(key.which === 71) {
       alert("G was Pressed");
     }
-  }) 
+  });
+  return;
 }
 
 $(document).ready(function(){
